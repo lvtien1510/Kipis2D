@@ -249,7 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36eefa4a3da20c6459dc3774256a3034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 5
+  maxHP: 3
   knockbackForce: 3
   knockbackDuration: 0.8
   impulsePrefab: {fileID: 0}

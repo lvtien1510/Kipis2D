@@ -5204,6 +5204,10 @@ PrefabInstance:
       value: Door
       objectReference: {fileID: 0}
     - target: {fileID: 6157878535763066443, guid: e77cfec23730fd6438726831ff38f273, type: 3}
+      propertyPath: nextSceneName
+      value: Lv2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6157878535763066443, guid: e77cfec23730fd6438726831ff38f273, type: 3}
       propertyPath: transitionAnim
       value: 
       objectReference: {fileID: 1923527619018500688}

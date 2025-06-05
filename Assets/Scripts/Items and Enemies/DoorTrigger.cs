@@ -37,8 +37,13 @@ public class DoorTrigger : MonoBehaviour
         animator.SetTrigger("DoorIn");
         audioManager.PlaySFX(audioManager.diamond);
         SceneTransitionManager.Instance.TransitionToScene(nextSceneName);
-        int currentLevel = int.Parse(SceneManager.GetActiveScene().name.Replace("Lv", ""));
-        LevelManager.Instance.UnlockNextLevel(currentLevel);
+
+        // Lưu tiến độ nếu nextScene là một màn chơi hợp lệ (bắt đầu bằng "Lv")
+        if (nextSceneName.StartsWith("Lv"))
+        {
+            int currentLevel = int.Parse(SceneManager.GetActiveScene().name.Replace("Lv", ""));
+            LevelManager.Instance.UnlockNextLevel(currentLevel);
+        }
 
         yield return new WaitForSeconds(1f);
         

@@ -9,5 +9,7 @@ public class SpikeDamage : MonoBehaviour
     {
         if (collision.tag == "Player")
             collision.GetComponent<Health>().TakeDamage(damage, transform);
+        if(collision.tag == "Enemy")
+            collision.GetComponent<EnemyHealth>().TakeDamage(3, transform);
     }
 }
