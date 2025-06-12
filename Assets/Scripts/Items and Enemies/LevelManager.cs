@@ -66,7 +66,7 @@ public class LevelManager : MonoBehaviour
     public void ResetProgress()
     {
         PlayerPrefs.DeleteKey(LevelKey);
-        for (int i = 1; i <= 10; i++) // Giả sử bạn có tối đa 10 màn chơi
+        for (int i = 1; i <= 15; i++) // Giả sử bạn có tối đa 10 màn chơi
         {
             PlayerPrefs.DeleteKey("Diamond_Lv" + i);
         }
