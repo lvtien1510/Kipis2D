@@ -1,14 +1,30 @@
-# 🎮 My Unity Game
+## 🎮 My Unity Game
 
 An RPG game where you can control your player to overcome traps, defeat enemies, and ascend.
 
-## 🔗 Liên kết
+## 🔗 Link
 
-- [Chơi thử trên itch.io](https://lvtien1510.itch.io/kipis2d)
+- [Click here to experience on itch.io](https://lvtien1510.itch.io/kipis2d)
 
-- [YouTube](https://lvtien1510.itch.io/kipis2d)
+- [Click here to watch video on YouTube](https://youtu.be/JbxK_SjfNB8)
+
 ## 🖼️ Demo
-![Screenshot](images/demo.png)
+
+I uploaded relevant images below:
+
+![Screenshot](Assets/Sprites/Images/start.png)
+
+![Screenshot](Assets/Sprites/Images/lv1.png)
+
+![Screenshot](Assets/Sprites/Images/lv2.png)
+
+![Screenshot](Assets/Sprites/Images/lv3.png)
+
+![Screenshot](Assets/Sprites/Images/lv4.png)
+
+![Screenshot](Assets/Sprites/Images/lv5.png)
+
+
 
 
 
